@@ -18,7 +18,7 @@
 
 <% local ver = require "luci.version" %>
 </div>
-<footer class="mobile-hide">
+<footer>
 	<div>
 		<a class="luci-link" href="https://yangmao.me">固件更新地址/
 						<a href="https://github.com/jerrykuku/luci-theme-argon">ArgonTheme <%# vPKG_VERSION %></a> /
@@ -41,6 +41,6 @@
 		}
 	})
 </script>
-<script src="<%=media%>/js/script.js"></script>
+<script type="text/javascript">L.require('menu-argon')</script>
 </body>
 </html>
